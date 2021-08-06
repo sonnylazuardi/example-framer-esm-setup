@@ -2,7 +2,12 @@
 import { Button } from "./Button.js";
 import { Battery } from "./Battery.js";
 import { MotionButton } from "./MotionButton.js";
-import { Provider } from "./Provider.js";
+import {
+  LiveblocksProvider,
+  useOthers,
+  useMyPresence,
+  RoomProvider
+} from "./Provider.js";
 
 // node_modules/@liveblocks/client/lib/esm/live.js
 var ServerMessageType;
@@ -1371,7 +1376,10 @@ function createClient(options) {
 export {
   Battery,
   Button,
+  LiveblocksProvider,
   MotionButton,
-  Provider,
-  createClient
+  RoomProvider,
+  createClient,
+  useMyPresence,
+  useOthers
 };
