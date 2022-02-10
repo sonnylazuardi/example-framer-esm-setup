@@ -9,6 +9,7 @@ import {
 } from "./Provider";
 
 import { createClient } from "@liveblocks/client";
+import { useDropzone } from "react-dropzone";
 
 export {
   LiveblocksProvider,
@@ -16,4 +17,5 @@ export {
   useMyPresence,
   RoomProvider,
   createClient,
+  useDropzone,
 };
