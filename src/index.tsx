@@ -11,6 +11,18 @@ import {
 import { createClient } from "@liveblocks/client";
 import { useDropzone } from "react-dropzone";
 
+import { createClient as createSupabaseClient } from "@supabase/supabase-js";
+import {
+  Provider as SupabaseClient,
+  useRealtime,
+  useSelect,
+  useUpdate,
+  useSubscription,
+  useInsert,
+  useFilter,
+  useUpsert,
+} from "react-supabase";
+
 export {
   LiveblocksProvider,
   useOthers,
@@ -18,4 +30,13 @@ export {
   RoomProvider,
   createClient,
   useDropzone,
+  createSupabaseClient,
+  SupabaseClient,
+  useRealtime,
+  useSelect,
+  useUpdate,
+  useInsert,
+  useSubscription,
+  useFilter,
+  useUpsert,
 };
