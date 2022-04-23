@@ -1,6 +1,6 @@
 {
   "name": "esmbuild",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "main": "",
   "license": "MIT",
   "author": {
@@ -29,6 +29,7 @@
     "@liveblocks/client": "^0.11.0",
     "@liveblocks/react": "^0.11.0",
     "@supabase/supabase-js": "^1.33.3",
+    "figma-jsonrpc": "^0.4.1",
     "react-dropzone": "^12.0.2",
     "react-supabase": "^0.2.0"
   }
