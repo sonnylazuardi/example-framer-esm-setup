@@ -330,6 +330,11 @@ fastq@^1.6.0:
   dependencies:
     reusify "^1.0.4"
 
+figma-jsonrpc@^0.4.1:
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/figma-jsonrpc/-/figma-jsonrpc-0.4.1.tgz#2739cd1392c3a897715c02b59381e45ebdaab396"
+  integrity sha512-5l1TdW/3Ik1XE5vM1nvzcqatOhSgDQF5O0sswWX2hznPenzNPR6vxc1HlSNf8xhPP0uaBi6ZsDGtom3aaUPUaA==
+
 file-selector@^0.4.0:
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/file-selector/-/file-selector-0.4.0.tgz#59ec4f27aa5baf0841e9c6385c8386bef4d18b17"
