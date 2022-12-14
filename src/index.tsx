@@ -3,6 +3,6 @@ export { Battery } from "./Battery";
 export { MotionButton } from "./MotionButton";
 export { Test } from "./Test";
 
-import Map, { Marker } from "react-map-gl";
+import Map, { Marker, Layer } from "react-map-gl";
 
-export { Map, Marker };
+export { Map, Marker, Layer };
