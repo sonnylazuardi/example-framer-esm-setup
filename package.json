@@ -1,6 +1,6 @@
 {
   "name": "esmbuild",
-  "version": "1.0.38",
+  "version": "1.0.39",
   "main": "",
   "license": "MIT",
   "author": {
@@ -15,6 +15,7 @@
   "devDependencies": {
     "@types/react": "^17.0.14",
     "esbuild": "^0.12.15",
+    "esbuild-plugin-external-global": "^1.0.1",
     "framer-motion": "^4.1.17",
     "fs-extra": "^10.0.0",
     "globby": "^11.0.4",

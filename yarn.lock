@@ -235,6 +235,11 @@ error-stack-parser@^2.0.6:
   dependencies:
     stackframe "^1.3.4"
 
+esbuild-plugin-external-global@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/esbuild-plugin-external-global/-/esbuild-plugin-external-global-1.0.1.tgz#e3bba0e3a561f61b395bec0984a90ed0de06c4ce"
+  integrity sha512-NDzYHRoShpvLqNcrgV8ZQh61sMIFAry5KLTQV83BPG5iTXCCu7h72SCfJ97bW0GqtuqDD/1aqLbKinI/rNgUsg==
+
 esbuild@^0.12.15:
   version "0.12.29"
   resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.12.29.tgz#be602db7c4dc78944a9dbde0d1ea19d36c1f882d"
